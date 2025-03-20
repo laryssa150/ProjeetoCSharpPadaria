@@ -10,3 +10,4 @@ C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\EmpresaTS01\Padaria\obj\De
 C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\EmpresaTS01\Padaria\obj\Debug\Padaria.frmSplash.resources
 C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\EmpresaTS01\Padaria\obj\Debug\Padaria.frmLogin.resources
 C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\EmpresaTS01\Padaria\obj\Debug\Padaria.frmMenuPrincipal.resources
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\EmpresaTS01\Padaria\obj\Debug\Padaria.frmFuncionarios.resources
