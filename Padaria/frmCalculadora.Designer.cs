@@ -1,4 +1,6 @@
-﻿namespace Padaria
+﻿using System;
+
+namespace Padaria
 {
     partial class frmCalculadora
     {
@@ -30,11 +32,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCalculadora));
             this.lblNumero1 = new System.Windows.Forms.Label();
-            this.txtNúmero1 = new System.Windows.Forms.TextBox();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.lblNúmero2 = new System.Windows.Forms.Label();
-            this.txtNúmero2 = new System.Windows.Forms.TextBox();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.rbSomar = new System.Windows.Forms.RadioButton();
-            this.rbSubtarir = new System.Windows.Forms.RadioButton();
+            this.rbSubtrair = new System.Windows.Forms.RadioButton();
             this.rbMultiplicar = new System.Windows.Forms.RadioButton();
             this.rbDivisão = new System.Windows.Forms.RadioButton();
             this.btnCalcular = new System.Windows.Forms.Button();
@@ -57,14 +59,14 @@
             this.lblNumero1.Text = "Número 1";
             this.lblNumero1.UseWaitCursor = true;
             // 
-            // txtNúmero1
+            // txtNumero1
             // 
-            this.txtNúmero1.Location = new System.Drawing.Point(52, 81);
-            this.txtNúmero1.MaxLength = 10;
-            this.txtNúmero1.Name = "txtNúmero1";
-            this.txtNúmero1.Size = new System.Drawing.Size(272, 26);
-            this.txtNúmero1.TabIndex = 2;
-            this.txtNúmero1.UseWaitCursor = true;
+            this.txtNumero1.Location = new System.Drawing.Point(52, 81);
+            this.txtNumero1.MaxLength = 10;
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(272, 26);
+            this.txtNumero1.TabIndex = 2;
+            this.txtNumero1.UseWaitCursor = true;
             // 
             // lblNúmero2
             // 
@@ -77,14 +79,14 @@
             this.lblNúmero2.Text = "Número 2";
             this.lblNúmero2.UseWaitCursor = true;
             // 
-            // txtNúmero2
+            // txtNumero2
             // 
-            this.txtNúmero2.Location = new System.Drawing.Point(51, 175);
-            this.txtNúmero2.MaxLength = 10;
-            this.txtNúmero2.Name = "txtNúmero2";
-            this.txtNúmero2.Size = new System.Drawing.Size(272, 26);
-            this.txtNúmero2.TabIndex = 4;
-            this.txtNúmero2.UseWaitCursor = true;
+            this.txtNumero2.Location = new System.Drawing.Point(51, 175);
+            this.txtNumero2.MaxLength = 10;
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(272, 26);
+            this.txtNumero2.TabIndex = 4;
+            this.txtNumero2.UseWaitCursor = true;
             // 
             // rbSomar
             // 
@@ -98,17 +100,17 @@
             this.rbSomar.UseVisualStyleBackColor = true;
             this.rbSomar.UseWaitCursor = true;
             // 
-            // rbSubtarir
+            // rbSubtrair
             // 
-            this.rbSubtarir.AutoSize = true;
-            this.rbSubtarir.Location = new System.Drawing.Point(48, 70);
-            this.rbSubtarir.Name = "rbSubtarir";
-            this.rbSubtarir.Size = new System.Drawing.Size(78, 24);
-            this.rbSubtarir.TabIndex = 7;
-            this.rbSubtarir.TabStop = true;
-            this.rbSubtarir.Text = "Subtair";
-            this.rbSubtarir.UseVisualStyleBackColor = true;
-            this.rbSubtarir.UseWaitCursor = true;
+            this.rbSubtrair.AutoSize = true;
+            this.rbSubtrair.Location = new System.Drawing.Point(48, 70);
+            this.rbSubtrair.Name = "rbSubtrair";
+            this.rbSubtrair.Size = new System.Drawing.Size(78, 24);
+            this.rbSubtrair.TabIndex = 7;
+            this.rbSubtrair.TabStop = true;
+            this.rbSubtrair.Text = "Subtair";
+            this.rbSubtrair.UseVisualStyleBackColor = true;
+            this.rbSubtrair.UseWaitCursor = true;
             // 
             // rbMultiplicar
             // 
@@ -173,12 +175,13 @@
             this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.UseWaitCursor = true;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
             // 
             // grpOperações
             // 
             this.grpOperações.Controls.Add(this.rbDivisão);
             this.grpOperações.Controls.Add(this.rbMultiplicar);
-            this.grpOperações.Controls.Add(this.rbSubtarir);
+            this.grpOperações.Controls.Add(this.rbSubtrair);
             this.grpOperações.Controls.Add(this.rbSomar);
             this.grpOperações.Location = new System.Drawing.Point(483, 43);
             this.grpOperações.Name = "grpOperações";
@@ -220,9 +223,9 @@
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
-            this.Controls.Add(this.txtNúmero2);
+            this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.lblNúmero2);
-            this.Controls.Add(this.txtNúmero1);
+            this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.lblNumero1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -239,14 +242,19 @@
 
         }
 
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
         #endregion
 
         private System.Windows.Forms.Label lblNumero1;
-        private System.Windows.Forms.TextBox txtNúmero1;
+        private System.Windows.Forms.TextBox txtNumero1;
         private System.Windows.Forms.Label lblNúmero2;
-        private System.Windows.Forms.TextBox txtNúmero2;
+        private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.RadioButton rbSomar;
-        private System.Windows.Forms.RadioButton rbSubtarir;
+        private System.Windows.Forms.RadioButton rbSubtrair;
         private System.Windows.Forms.RadioButton rbMultiplicar;
         private System.Windows.Forms.RadioButton rbDivisão;
         private System.Windows.Forms.Button btnCalcular;

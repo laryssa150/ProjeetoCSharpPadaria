@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|c:\\users\\laryssa.fsilva5\\documents\\visual studio 2022\\empresats01\\padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|c:\\users\\laryssa.fsilva5\\documents\\visual studio 2022\\empresats01\\padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmcalculadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\padaria\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\padaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|solutionrelative:padaria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\padaria\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|solutionrelative:padaria\\frmmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E0195DB-67A6-4A7E-AD80-CE390F1399A4}|Padaria\\Padaria.csproj|C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\padaria\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -34,8 +38,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCalculadora.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.Designer.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.Designer.cs",
+              "ToolTip": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.Designer.cs",
+              "RelativeToolTip": "Padaria\\frmCalculadora.Designer.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAiwLAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:16:46.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmCalculadora.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.cs",
+              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
+              "ToolTip": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.cs [Design]",
+              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T14:16:43.391Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,22 +73,10 @@
               "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
               "ToolTip": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.cs",
               "RelativeToolTip": "Padaria\\frmCalculadora.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAADwv00AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T11:38:28.339Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmCalculadora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.cs",
-              "RelativeDocumentMoniker": "Padaria\\frmCalculadora.cs",
-              "ToolTip": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmCalculadora.cs [Design]",
-              "RelativeToolTip": "Padaria\\frmCalculadora.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T11:31:44.659Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -76,19 +93,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "frmMenuPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmMenuPrincipal.cs",
               "RelativeDocumentMoniker": "Padaria\\frmMenuPrincipal.cs",
               "ToolTip": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmMenuPrincipal.cs [Design]",
               "RelativeToolTip": "Padaria\\frmMenuPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T13:39:07.041Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-19T13:39:07.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "frmSplash.cs [Design]",
               "DocumentMoniker": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmSplash.cs",
               "RelativeDocumentMoniker": "Padaria\\frmSplash.cs",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "frmLogin.cs [Design]",
               "DocumentMoniker": "C:\\Users\\laryssa.fsilva5\\Documents\\Visual Studio 2022\\EmpresaTS01\\Padaria\\frmLogin.cs",
               "RelativeDocumentMoniker": "Padaria\\frmLogin.cs",
