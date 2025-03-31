@@ -33,7 +33,7 @@ namespace Padaria
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCalculadora));
             this.lblNumero1 = new System.Windows.Forms.Label();
             this.txtNumero1 = new System.Windows.Forms.TextBox();
-            this.lblNúmero2 = new System.Windows.Forms.Label();
+            this.lblNumero2 = new System.Windows.Forms.Label();
             this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.rbSomar = new System.Windows.Forms.RadioButton();
             this.rbSubtrair = new System.Windows.Forms.RadioButton();
@@ -68,16 +68,16 @@ namespace Padaria
             this.txtNumero1.TabIndex = 2;
             this.txtNumero1.UseWaitCursor = true;
             // 
-            // lblNúmero2
+            // lblNumero2
             // 
-            this.lblNúmero2.AutoSize = true;
-            this.lblNúmero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNúmero2.Location = new System.Drawing.Point(48, 152);
-            this.lblNúmero2.Name = "lblNúmero2";
-            this.lblNúmero2.Size = new System.Drawing.Size(78, 20);
-            this.lblNúmero2.TabIndex = 3;
-            this.lblNúmero2.Text = "Número 2";
-            this.lblNúmero2.UseWaitCursor = true;
+            this.lblNumero2.AutoSize = true;
+            this.lblNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNumero2.Location = new System.Drawing.Point(48, 152);
+            this.lblNumero2.Name = "lblNumero2";
+            this.lblNumero2.Size = new System.Drawing.Size(78, 20);
+            this.lblNumero2.TabIndex = 3;
+            this.lblNumero2.Text = "Número 2";
+            this.lblNumero2.UseWaitCursor = true;
             // 
             // txtNumero2
             // 
@@ -175,7 +175,6 @@ namespace Padaria
             this.btnSair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.UseWaitCursor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
             // 
             // grpOperações
             // 
@@ -224,7 +223,7 @@ namespace Padaria
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCalcular);
             this.Controls.Add(this.txtNumero2);
-            this.Controls.Add(this.lblNúmero2);
+            this.Controls.Add(this.lblNumero2);
             this.Controls.Add(this.txtNumero1);
             this.Controls.Add(this.lblNumero1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -251,7 +250,7 @@ namespace Padaria
 
         private System.Windows.Forms.Label lblNumero1;
         private System.Windows.Forms.TextBox txtNumero1;
-        private System.Windows.Forms.Label lblNúmero2;
+        private System.Windows.Forms.Label lblNumero2;
         private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.RadioButton rbSomar;
         private System.Windows.Forms.RadioButton rbSubtrair;
