@@ -1,0 +1,12 @@
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.exe.config
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.exe
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\bin\Debug\ProjetoArrays.pdb
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.AssemblyReference.cache
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.Vetores.resources
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.Properties.Resources.resources
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.GenerateResource.cache
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.csproj.CoreCompileInputs.cache
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.exe
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.pdb
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmMatriz.resources
+C:\Users\laryssa.fsilva5\Documents\Visual Studio 2022\ProjetoCSharpParadaria\ProjetoArrays\obj\Debug\ProjetoArrays.frmAplicativoAlunos.resources
